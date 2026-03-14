@@ -52,8 +52,8 @@ export const CareersPage: React.FC = () => {
           </div>
         </div>
         <div className="grid grid-cols-2 gap-4">
-          <img src="https://images.unsplash.com/photo-1522071823957-098570529914?auto=format&fit=crop&q=80&w=1000" className="rounded-3xl shadow-xl mt-12" alt="Culture" />
-          <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=1000" className="rounded-3xl shadow-xl" alt="Office" />
+          <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&auto=format&fit=crop&q=80" className="rounded-3xl shadow-xl mt-12" alt="Culture" />
+          <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&auto=format&fit=crop&q=80" className="rounded-3xl shadow-xl" alt="Office" />
         </div>
       </section>
 

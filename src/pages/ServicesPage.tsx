@@ -54,7 +54,7 @@ const products = [
     title: 'Buddy Poker',
     category: 'Gaming',
     description: 'High-performance gaming app built with specialized algorithms. Offers a secure and engaging platform for professional and recreational players.',
-    image: 'https://images.unsplash.com/photo-1546519156-d81a3ae9729d?auto=format&fit=crop&q=80&w=2000',
+    image: 'https://images.unsplash.com/photo-1609743522653-52354461eb27?w=1200&auto=format&fit=crop&q=80',
     icon: Gamepad,
     features: ['Custom Gaming Engine', 'Secure Transactions', 'Social Integration', 'Anti-cheat Algorithms'],
   },

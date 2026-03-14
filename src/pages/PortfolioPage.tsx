@@ -38,7 +38,7 @@ const projects = [
     title: 'Buddy Poker App',
     category: 'Gaming',
     description: 'A sophisticated social gaming platform using custom algorithms for fair play and secure real-time interactions.',
-    image: 'https://images.unsplash.com/photo-1546519156-d81a3ae9729d?auto=format&fit=crop&q=80&w=2000',
+    image: 'https://images.unsplash.com/photo-1543508282-5c1f427f023f?auto=format&fit=crop&q=80&w=2000',
     tags: ['C++', 'Spring Boot', 'WebSockets', 'Flutter'],
     link: '#',
   },

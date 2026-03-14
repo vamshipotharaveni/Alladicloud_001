@@ -63,18 +63,18 @@ export const ServicesOverview: React.FC = () => {
           {services.map((service, index) => (
             <motion.div
               key={index}
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              whileHover={{ y: -5 }}
-              className="glass p-8 rounded-3xl group"
+              whileHover={{ y: -10, boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.15)" }}
+              className="glass p-10 rounded-[2.5rem] group border-transparent hover:border-primary-500/30 transition-all duration-500"
             >
-              <div className={`w-14 h-14 ${service.color} rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-${service.color.split('-')[1]}-500/20 text-white`}>
-                <service.icon size={28} />
+              <div className={`w-16 h-16 ${service.color} rounded-2xl flex items-center justify-center mb-8 shadow-2xl shadow-${service.color.split('-')[1]}-500/40 text-white transform group-hover:scale-110 group-hover:rotate-3 transition-transform duration-500`}>
+                <service.icon size={32} />
               </div>
-              <h3 className="text-xl font-bold mb-3 group-hover:text-primary-600 transition-colors">{service.title}</h3>
-              <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
+              <h3 className="text-2xl font-black mb-4 group-hover:text-primary-600 transition-colors uppercase tracking-tight">{service.title}</h3>
+              <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-lg font-medium opacity-80 group-hover:opacity-100 transition-opacity">
                 {service.description}
               </p>
             </motion.div>

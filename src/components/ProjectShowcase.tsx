@@ -23,7 +23,7 @@ const projects = [
     category: 'Gaming',
     description: 'Feature-rich online gaming platform with real-time multi-player engagement.',
     tech: ['Angular', 'Node.js', 'WebSockets'],
-    image: 'https://images.unsplash.com/photo-1511193311914-0346f16fea90?auto=format&fit=crop&q=80&w=2070',
+    image: 'https://images.unsplash.com/photo-1543508282-5c1f427f023f?auto=format&fit=crop&q=80&w=2000',
   },
   {
     title: 'POS Systems',
