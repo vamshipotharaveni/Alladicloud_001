@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ExternalLink } from 'lucide-react';
+import smartestCabImg from '../assets/smartest_cab.png';
+import myRideImg from '../assets/my_ride.png';
+import grantsImg from '../assets/grants_management.png';
+import paperlessImg from '../assets/paperless_classroom.png';
+import posImage from '../assets/pos_system.png';
 
 const categories = ['All', 'Mobility', 'Enterprise', 'Gaming', 'EdTech', 'GovTech'];
 
@@ -9,7 +14,7 @@ const projects = [
     title: 'Smartest Cab Ecosystem',
     category: 'Mobility',
     description: 'A complete taxi business solution with passenger and driver apps, cloud dispatch, and 90% fare retention for owners.',
-    image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&q=80&w=2000',
+    image: smartestCabImg,
     tags: ['Java', 'Spring', 'JEE', 'Android', 'iOS'],
     link: '#',
   },
@@ -17,7 +22,7 @@ const projects = [
     title: 'My Ride Sharing',
     category: 'Mobility',
     description: 'Next-gen ride-sharing platform built with Flutter and REST web services for seamless cross-platform performance.',
-    image: 'https://images.unsplash.com/photo-1532105956626-9569c03602f6?auto=format&fit=crop&q=80&w=2000',
+    image: myRideImg,
     tags: ['Flutter', 'REST API', 'MySQL', 'Cloud'],
     link: '#',
   },
@@ -25,7 +30,7 @@ const projects = [
     title: 'Grants Management',
     category: 'GovTech',
     description: 'Specialized system for Federal and State grants with complex approval matrices and role-based access.',
-    image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=2000',
+    image: grantsImg,
     tags: ['Java', 'Oracle', 'JPA', 'Angular'],
     link: '#',
   },
@@ -33,7 +38,7 @@ const projects = [
     title: 'Buddy Poker App',
     category: 'Gaming',
     description: 'A sophisticated social gaming platform using custom algorithms for fair play and secure real-time interactions.',
-    image: 'https://images.unsplash.com/photo-1511193311914-0346f16efe90?auto=format&fit=crop&q=80&w=2000',
+    image: 'https://images.unsplash.com/photo-1546519156-d81a3ae9729d?auto=format&fit=crop&q=80&w=2000',
     tags: ['C++', 'Spring Boot', 'WebSockets', 'Flutter'],
     link: '#',
   },
@@ -41,7 +46,7 @@ const projects = [
     title: 'Paperless Classroom',
     category: 'EdTech',
     description: 'Compliance-focused document management system for academic accreditation and faculty documentation.',
-    image: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&q=80&w=2000',
+    image: paperlessImg,
     tags: ['Angular', 'Spring', 'MongoDB', 'Cloud'],
     link: '#',
   },
@@ -49,7 +54,7 @@ const projects = [
     title: 'Advanced POS System',
     category: 'Enterprise',
     description: 'Customized retail management solution designed for budget-conscious SMEs with Oracle database integration.',
-    image: 'https://images.unsplash.com/photo-1556742044-3c52d6e88ceb?auto=format&fit=crop&q=80&w=2000',
+    image: posImage,
     tags: ['Java', 'Oracle', 'Swing', 'REST'],
     link: '#',
   },

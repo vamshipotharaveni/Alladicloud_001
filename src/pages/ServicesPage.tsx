@@ -2,13 +2,19 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Car, Smartphone, Gamepad, ShoppingBag, GraduationCap, ClipboardList, Activity } from 'lucide-react';
+import smartestCabImg from '../assets/smartest_cab.png';
+import myRideImg from '../assets/my_ride.png';
+import grantsImg from '../assets/grants_management.png';
+import fleetImg from '../assets/fleet_management.png';
+import paperlessImg from '../assets/paperless_classroom.png';
+import posImage from '../assets/pos_system.png';
 
 const products = [
   {
     title: 'Smartest Cab',
     category: 'Transportation & Mobility',
     description: 'A comprehensive taxi management ecosystem including Passenger App and Driver App. Designed for small taxi businesses and individuals to keep 90% of fares with instantaneous bank transfers.',
-    image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&q=80&w=2000',
+    image: smartestCabImg,
     icon: Car,
     features: ['Passenger & Driver Apps', 'Instant Fare Transfer', 'Cloud-Based Dispatch', 'Dynamic Fare Setting'],
   },
@@ -16,7 +22,7 @@ const products = [
     title: 'My Ride',
     category: 'Ride Sharing',
     description: 'Innovative ride-sharing solution developed with Java, REST services, and Flutter. Provides a seamless experience for both passengers and drivers with real-time tracking.',
-    image: 'https://images.unsplash.com/photo-1532105956626-9569c03602f6?auto=format&fit=crop&q=80&w=2000',
+    image: myRideImg,
     icon: Smartphone,
     features: ['Flutter Mobile Apps', 'REST Web Services', 'Real-time GPS', 'Driver Performance Tracking'],
   },
@@ -24,7 +30,7 @@ const products = [
     title: 'Grants Management System',
     category: 'GovTech Solutions',
     description: 'Role-based grants management system for Federal/State grants. Features multi-level approval workflows with automated email notifications and audit trails.',
-    image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=2000',
+    image: grantsImg,
     icon: ClipboardList,
     features: ['Role-based access', 'Approval Chain Workflows', 'Email Integration', 'Reporting & Compliance'],
   },
@@ -32,7 +38,7 @@ const products = [
     title: 'Fleet Management',
     category: 'Enterprise Logistics',
     description: 'Real-time vehicle tracking and performance monitoring. Features geo-fencing, idle time reports, and route optimization to boost logistical efficiency.',
-    image: 'https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&q=80&w=2000',
+    image: fleetImg,
     icon: Activity,
     features: ['Geo-fencing', 'Idle-time Tracking', 'Route Optimization', 'Driver Behavior Analytics'],
   },
@@ -40,7 +46,7 @@ const products = [
     title: 'Paperless Classroom',
     category: 'EdTech',
     description: 'Electronic document management for educational institutions. Reduces risk and increases efficiency by documenting every compliance and accreditation element.',
-    image: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&q=80&w=2000',
+    image: paperlessImg,
     icon: GraduationCap,
     features: ['Accreditation Tracking', 'Faculty Records', 'Student Portfolio', 'Compliance Documentation'],
   },
@@ -48,7 +54,7 @@ const products = [
     title: 'Buddy Poker',
     category: 'Gaming',
     description: 'High-performance gaming app built with specialized algorithms. Offers a secure and engaging platform for professional and recreational players.',
-    image: 'https://images.unsplash.com/photo-1511193311914-0346f16efe90?auto=format&fit=crop&q=80&w=2000',
+    image: 'https://images.unsplash.com/photo-1546519156-d81a3ae9729d?auto=format&fit=crop&q=80&w=2000',
     icon: Gamepad,
     features: ['Custom Gaming Engine', 'Secure Transactions', 'Social Integration', 'Anti-cheat Algorithms'],
   },
@@ -56,7 +62,7 @@ const products = [
     title: 'Point of Sale (POS)',
     category: 'Retail',
     description: 'Customized retail solutions integrated with MySQL/Oracle databases. Efficiently manages transactions, inventory, and customer data within your budget.',
-    image: 'https://images.unsplash.com/photo-1556742044-3c52d6e88ceb?auto=format&fit=crop&q=80&w=2000',
+    image: posImage,
     icon: ShoppingBag,
     features: ['Inventory Management', 'Oracle Integration', 'Custom Reporting', 'Multi-terminal Support'],
   },
