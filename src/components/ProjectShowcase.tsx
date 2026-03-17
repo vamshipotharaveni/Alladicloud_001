@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
 import { NavLink } from 'react-router-dom';
@@ -41,7 +40,7 @@ const projects = [
   },
 ];
 
-export const ProjectShowcase: React.FC = () => {
+export const ProjectShowcase = () => {
   return (
     <section className="py-24 bg-slate-50 dark:bg-slate-900/50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 mb-16 px-6">

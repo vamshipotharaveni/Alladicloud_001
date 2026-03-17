@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
 const stats = [
@@ -8,7 +8,7 @@ const stats = [
   { label: 'Engineers', value: 40, suffix: '+' },
 ];
 
-export const StatsSection: React.FC = () => {
+export const StatsSection = () => {
   return (
     <section className="py-20 bg-primary-600 relative overflow-hidden">
       {/* Decorative background circles */}
@@ -40,10 +40,10 @@ export const StatsSection: React.FC = () => {
   );
 };
 
-const Counter: React.FC<{ end: number; duration: number }> = ({ end, duration }) => {
-  const [count, setCount] = React.useState(0);
+const Counter = ({ end, duration }: { end: number; duration: number }) => {
+  const [count, setCount] = useState(0);
 
-  React.useEffect(() => {
+  useEffect(() => {
     let start = 0;
     const increment = end / (duration * 60);
     const handle = setInterval(() => {

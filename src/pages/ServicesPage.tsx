@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Car, Smartphone, Gamepad, ShoppingBag, GraduationCap, ClipboardList, Activity } from 'lucide-react';
@@ -68,7 +67,7 @@ const products = [
   },
 ];
 
-export const ServicesPage: React.FC = () => {
+export const ServicesPage = () => {
   return (
     <div className="pt-24 pb-20">
       <section className="px-6 mb-24">

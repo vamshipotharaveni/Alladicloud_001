@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Users, Zap, Shield, Repeat, BarChart } from 'lucide-react';
 
@@ -30,7 +29,7 @@ const coreValues = [
   },
 ];
 
-export const WhyChooseUs: React.FC = () => {
+export const WhyChooseUs = () => {
   return (
     <section className="py-24 bg-white dark:bg-slate-950 px-6">
       <div className="max-w-7xl mx-auto">

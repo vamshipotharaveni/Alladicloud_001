@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Award, Target, Eye, Shield, Users, Zap, Gem } from 'lucide-react';
 import ceoImage from '../assets/CEO image.jpg';
@@ -37,7 +36,7 @@ const strengths = [
   'Performance optimized for various platforms and operating systems.',
 ];
 
-export const AboutPage: React.FC = () => {
+export const AboutPage = () => {
   return (
     <div className="pt-24 pb-20">
       {/* Hero Section */}

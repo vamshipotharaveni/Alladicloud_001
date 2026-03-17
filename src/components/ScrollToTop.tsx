@@ -1,11 +1,11 @@
-import React from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowUp } from 'lucide-react';
 
-export const ScrollToTop: React.FC = () => {
-  const [isVisible, setIsVisible] = React.useState(false);
+export const ScrollToTop = () => {
+  const [isVisible, setIsVisible] = useState(false);
 
-  React.useEffect(() => {
+  useEffect(() => {
     const toggleVisibility = () => {
       if (window.pageYOffset > 500) {
         setIsVisible(true);

@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Briefcase, ArrowRight } from 'lucide-react';
 
@@ -9,7 +8,7 @@ const positions = [
   { title: 'DevOps Engineer', type: 'Full-time', location: 'Hyderabad (Hybrid)', exp: '4+ Years' },
 ];
 
-export const CareersPage: React.FC = () => {
+export const CareersPage = () => {
   return (
     <div className="pt-32 pb-24">
       <section className="px-6 mb-24 text-center max-w-4xl mx-auto">

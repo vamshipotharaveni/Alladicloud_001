@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Globe, Smartphone, Server, Cloud, Database, Cpu, ArrowRight } from 'lucide-react';
 import { NavLink } from 'react-router-dom';
@@ -42,7 +41,7 @@ const services = [
   },
 ];
 
-export const ServicesOverview: React.FC = () => {
+export const ServicesOverview = () => {
   return (
     <section className="py-24 bg-slate-50 dark:bg-slate-900/50">
       <div className="max-w-7xl mx-auto px-6">

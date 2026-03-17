@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 
 const technologies = [
@@ -12,7 +11,7 @@ const technologies = [
   { name: 'React', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
 ];
 
-export const TechStack: React.FC = () => {
+export const TechStack = () => {
   return (
     <section className="py-24 bg-white dark:bg-slate-950 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
